@@ -1,0 +1,1 @@
+[28-May-2017 13:48:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/jpjacom/public_html/projeto/laravel/app/Http/Controllers/Sistema/TemasController.php on line 16

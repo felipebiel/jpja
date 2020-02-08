@@ -1,0 +1,562 @@
+	
+/*CABECALHO */
+
+/*alterarndo a cor de fundo*/
+#app-site .cabecalho nav.navbar.navbar-inverse.navbar-fixed-top{
+
+	z-index: 1;
+	border-color: red;
+	border-width: 0px 0px 6px 0px;
+}
+
+/*aumentanto o tamanho */
+#app-site .cabecalho .navbar-header {
+	height:80px;
+}
+/* cor da fonte do dropdown do menu */
+#app-site .cabecalho .dropdown-menu a{
+	color :white;
+}
+
+/*alterando a cor da fonte*/
+#app-site .cabecalho nav.navbar.navbar-inverse.navbar-fixed-top a{
+	font-size:white;
+	transition: 0s background-color;
+}
+/*fundo ao passar o mouse nos links*/
+#app-site .cabecalho nav.navbar.navbar-inverse.navbar-fixed-top #app-navbar-collapse a:hover{
+background-color: #3d3d3d;
+}
+
+/*alterando a cor de fundo dos links quando estao abertos*/
+#app-site .cabecalho .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+background-color: #3d3d3d;
+color:white;
+
+}
+/**/
+#app-site .cabecalho .dropdown-menu, .dropdown-toggle:focus{
+	background-color: #3d3d3d;
+}
+/*alinhando os links com o logo*/
+
+#app-site .cabecalho ul.nav.navbar-nav.navbar-right{
+	padding-top: 13px;
+
+
+}
+
+
+/*no responsivo mudar a cor do menu quando ele estiver aberto*/
+
+#app-site .cabecalho .navbar-toggle{
+	background-color: #3d3d3d;
+}
+
+#app-site .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	border-color: black;
+}
+
+#app-site .cabecalho .navbar-toggle:focus{
+	background-color: #3d3d3d;
+}
+/*muda o fundo do background dos links no responsivo*/
+@media screen and (max-width: 767px) {
+
+	#app-site .cabecalho div#app-navbar-collapse{
+		background-color: #3953a4;
+
+	}
+}
+
+/*mudar a cor das barras do menu responsivo*/
+#app-site .cabecalho .icon-bar{
+	background-color: white;
+}
+
+
+html, body{
+ height:100%; /* aqui definimos que o html e o body terão altura de 100% */
+}
+
+/*CONTEUDO*/
+
+
+#app-site main.index{/*coloca o background em de altura e largura em qualquer dispositivo*/
+ width:100%; 
+ height:auto;
+ min-height:100%;
+ background-color: #ccc; /* aqui é onde acontece a mágica, a propriedade height:auto e min-height: 100% fará com que esta div ocupe sempre a altura total do navegador, mesmo quando redimensionado */
+ background-image: url('../arquivos/imagens/fundo_index.jpg');
+ background-size: cover;
+ background-position: top center;
+ background-attachment: fixed;
+}
+
+/*espaçamento superior do conteudo*/
+
+#app-site main.index .posicao-index{
+	margin-top:20%;
+	margin-bottom: 2%;
+}
+
+/*tamanho do avatar(bonequinho)*/
+
+#app-site main.index .posicao-index .row .avatar{
+	width: 270px;
+	/*background-color: #74489c;
+	border-radius: 100%;
+	border:3px solid white;
+	box-shadow: black 0.1em 0.1em 0.2em;*/
+}
+/*titulo*/
+#app-site main.index .posicao-index .row h1{
+	color: white;
+	padding: 15px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+}
+
+
+/*btn do index*/
+#app-site main.index .posicao-index .row a{
+	font-size: 20px;
+}
+
+/* RODAPE */
+/*cor de fundo*/
+#app-site .rodape{
+	background-color:#282727;
+	margin: auto;
+	width: 100%;
+	display:inline-block;
+	padding: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* estilo do texto do rodape */
+
+#app-site .rodape .row{
+	text-align: center;
+	font-size: 15px;
+	
+}
+#app-site .rodape .row a{
+	color: white;
+
+}
+
+#app-site .rodape .row div{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#app-site .rodape .container center{
+	padding: 15px;
+	color: white;
+}
+
+
+/*ALTERACOES PARA MOBILE*/
+
+/*muda o fundo do background dos links no responsivo*/
+/*resolução abaixo to tablet*/
+@media screen and (max-width: 767px) {
+
+	/*a cor do menu ao ser selecionado*/
+	#app-site .cabecalho div#app-navbar-collapse{
+		background-color:#525252;
+	}
+
+	/*o titulo do index*/
+	#app-site main.index .posicao-index .row h1{
+		font-size: 20px;
+		margin-top: 5px;
+	}
+
+	/*a posição do conteudo*/
+	#app-site main.index .posicao-index{
+		margin-bottom: 20px;
+		margin-top:30%;
+	}
+	/*o avatar*/
+	#app-site main.index .posicao-index .row .avatar{
+	width: 140px;
+	margin-top: 20px;
+	/*background-color: #74489c;
+	border-radius: 100%;
+	border:3px solid white;
+	box-shadow: black 0.1em 0.1em 0.2em;*/
+	}
+
+
+
+    /* Edições dos paineis da pagina de login / cadastro / Fale Conosco / Regras */
+}
+
+
+	/*  Codigo para editar os paineis de Login, Cadastro  e envio de mensagem */
+
+	/* fundobranco do painel*/
+	#app-site .fundobranco{
+	background-color:white;
+	padding:25px;
+	border-radius:10px;
+	box-shadow: gray 5px 5px 5px;
+	}
+	
+	/*texto do titulo do fomurlario*/
+	#app-site .tituloformulario{
+	text-align:center;
+	text-shadow: #333 2px 2px 2px;
+	font-size:40px;
+	font-family:lato;
+	height:80px;
+	}
+	
+	#app-site .nivelarlogin{
+	padding:200px 0px 100px 0px;
+	}
+
+	/* apenas para diminuir a distancia do cabeçalho e os paineis */
+	
+	#app-site .botaocadastrar{
+	text-align:center;
+	width:auto;
+	padding:10px 0px 5px 0px;
+	}
+
+	
+	#app-site .textodotermos{
+	color:gray;
+	font-size:12px;
+	
+	}
+	
+	/* botão voltar e enviar dos furmlários */
+	#app-site .botao-voltar-enviar{
+	text-align:center;
+	
+	}
+	
+	#app-site #textodofaleconosco{
+	text-align:center;
+	
+	}
+	/* regulando os paineis para a versão mobille*/
+	@media screen and (max-width: 767px) {
+
+		#app-site .nivelarlogin{
+	padding:100px 0px 100px 0px;
+	}
+
+		#app-site .fundobranco{
+	background-color:white;
+	padding:10px;
+	margin: 10px;
+	border-radius:10px;
+	box-shadow: gray 5px 5px 5px;
+	}
+
+	#app-site .cabecalho .navbar-header {
+	height:60px;
+}
+}
+
+
+/* classe exclusiva para dar espacamento entre o topo e conteudo do site */
+	.espacamentotopo{
+	padding-top: 120px;
+
+}
+
+
+	/* regulando os paineis para a versão mobille
+	painel do falecnosco
+	*/
+	@media screen and (max-width: 767px) {
+
+		#app-site #nvfaleconosco{
+
+		padding:25px 0px 50px 0px;
+		}
+
+		#app-site .espacamentotopo{
+
+		padding-top: 30%;
+		}
+		
+		#app-site #fix_row{
+		padding-left: 0px;
+		padding-right: 0px;
+
+		}
+		#app-site .fundobranco{
+
+		background-color:rgba(255,255,255,0.8);
+		padding:10px;
+		margin: 10px;
+		border-radius:10px;
+		box-shadow: gray 5px 5px 5px;
+		}	
+
+}
+
+
+/* Menu especial inferior que so aparece na versao mobille */
+@media screen and (max-width: 600px) {
+
+		#app-site .plq{
+			
+			display: none;
+
+		}
+
+		#app-site .rodape{
+
+
+		}
+
+		#app-site .paineldeperfildousuario{
+
+			display: none;
+		}
+
+		#app-site .rodape{
+			background-color:#282727;
+			margin: auto;
+			width: 100%;
+			display:inline-block;
+			padding: 5px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		/* alteracoes no estilo do texto do rodape para melhorar a versao mobille  */
+
+		#app-site .rodape{
+		
+			font-size: 11px;
+
+		}
+
+		#app-site .rodape .row{
+			
+			text-align: center;
+			font-size: 10px;
+			
+		}
+		#app-site .rodape .row a{
+			color: white;
+
+		}
+
+		#app-site .rodape .row div{
+			padding-bottom: 5px;
+			padding-top: 8px;
+		}
+
+		#app-site .rodape .container center{
+			margin-bottom: 34px;
+			padding: 15px;
+			color: white;
+		}
+
+		#app-site .cabecalho nav.navbar.navbar-inverse.navbar-fixed-top{
+
+			z-index: 1;
+			border-color: red;
+			border-width: 0px 0px 2px 0px;
+			box-shadow: #ffa6a6 2px 1px 0px 1px;
+
+		}
+
+		#app-site .logo_horinzontal{
+
+			width:80px;
+		}
+
+		#app-site .nivelarespaconorodape{
+
+			height: 80px;
+		}
+
+		#app-site .btcomecaragora {
+		  
+		  padding: 10px 15px 10px 15px;
+
+		}
+
+		#app-site .btcadastrarlogar {
+		
+		  padding: 8px 40px 8px 40px;
+
+		}
+		
+}
+
+/* Mais alterações para ajuste do menu especial na versão mobille */
+
+@media screen and (min-width: 600px) {
+
+
+		#app-site .menumobille{
+			display: none;
+
+
+		}
+				
+		#app-site .rbmobille{
+
+		}
+
+		.desbugdopainel{
+		margin:40px;
+
+		}
+
+}
+/* botoes pelo site, ex index, entrar , cadastrar , e etc*/
+#app-site .btcomecaragora {
+
+		  background: #59ff5c;
+		  background-image: -webkit-linear-gradient(top, #59ff5c, #09b300);
+		  background-image: -moz-linear-gradient(top, #59ff5c, #09b300);
+		  background-image: -ms-linear-gradient(top, #59ff5c, #09b300);
+		  background-image: -o-linear-gradient(top, #59ff5c, #09b300);
+		  background-image: linear-gradient(to bottom, #59ff5c, #09b300);
+		  -webkit-border-radius: 28;
+		  -moz-border-radius: 28;
+		  border-radius: 28px;
+		  text-shadow: 1px 1px 3px #8bff85;
+		  -webkit-box-shadow: 0px 1px 3px #3aad00;
+		  -moz-box-shadow: 0px 1px 3px #3aad00;
+		  box-shadow: 0px 1px 3px #3aad00;
+		  font-family: Arial;
+		  color: #f5edf5;
+		  font-size: 20px;
+		  padding: 10px 20px 10px 20px;
+		  border: solid #50e048 1px;
+		  text-decoration: none;
+}
+
+.btcomecaragora:hover {
+
+		  background: #1aed21;
+		  background-image: -webkit-linear-gradient(top, #1aed21, #9afc7c);
+		  background-image: -moz-linear-gradient(top, #1aed21, #9afc7c);
+		  background-image: -ms-linear-gradient(top, #1aed21, #9afc7c);
+		  background-image: -o-linear-gradient(top, #1aed21, #9afc7c);
+		  background-image: linear-gradient(to bottom, #1aed21, #9afc7c);
+		  text-decoration: none;
+		  color: white;
+}
+
+.btcadastrarlogar {
+
+		  background: #33ff14;
+		  background-image: -webkit-linear-gradient(top, #33ff14, #42b82b);
+		  background-image: -moz-linear-gradient(top, #33ff14, #42b82b);
+		  background-image: -ms-linear-gradient(top, #33ff14, #42b82b);
+		  background-image: -o-linear-gradient(top, #33ff14, #42b82b);
+		  background-image: linear-gradient(to bottom, #33ff14, #42b82b);
+		  -webkit-border-radius: 28;
+		  -moz-border-radius: 28;
+		  border-radius: 28px;
+		  text-shadow: 1px 1px 3px #ffdeff;
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 21px;
+		  padding: 8px 60px 8px 60px;
+		  border: solid #75eb6f 1px;
+		  text-decoration: none;
+}
+
+#app-site .btcadastrarlogar:hover {
+
+		  background: #56fc3c;
+		  background-image: -webkit-linear-gradient(top, #56fc3c, #34d976);
+		  background-image: -moz-linear-gradient(top, #56fc3c, #34d976);
+		  background-image: -ms-linear-gradient(top, #56fc3c, #34d976);
+		  background-image: -o-linear-gradient(top, #56fc3c, #34d976);
+		  background-image: linear-gradient(to bottom, #56fc3c, #34d976);
+		  text-decoration: none;
+}
+
+	
+
+#app-site .espacamentodobotaoentrar{
+
+		padding: 15px;
+
+}
+
+#app-site .btesqueceusuasenha a{
+
+		color: #4ca7ba;
+		text-decoration: none;
+}
+
+#app-site .btesqueceusuasenha a:hover{
+
+		color: #88d9ea;
+
+}
+
+#app-site .btnavbar{
+
+		  -webkit-border-radius: 11;
+		  -moz-border-radius: 11;
+		  border-radius: 11px;
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 15px;
+		  background: none;
+		  padding: 10px 20px 10px 20px;
+		  text-decoration: none;
+}
+
+#app-site .btnavbar:hover {
+
+		  background: #363336;
+		  background-image: -webkit-linear-gradient(top, #363336, #000000);
+		  background-image: -moz-linear-gradient(top, #363336, #000000);
+		  background-image: -ms-linear-gradient(top, #363336, #000000);
+		  background-image: -o-linear-gradient(top, #363336, #000000);
+		  background-image: linear-gradient(to bottom, #363336, #000000);
+		  text-decoration: none;
+
+}
+
+
+#app-site .btpontos {
+  background: #fff200;
+  background-image: -webkit-linear-gradient(top, #fff200, #a39b00);
+  background-image: -moz-linear-gradient(top, #fff200, #a39b00);
+  background-image: -ms-linear-gradient(top, #fff200, #a39b00);
+  background-image: -o-linear-gradient(top, #fff200, #a39b00);
+  background-image: linear-gradient(to bottom, #fff200, #a39b00);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 0px 30px #60690c;
+  -moz-box-shadow: 0px 0px 30px #60690c;
+  box-shadow: 0px 0px 30px #60690c;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 26px 30px 29px 28px;
+  border: solid #ccb100 0px;
+  text-decoration: none;
+}
+
+#app-site .btpontos:hover {
+  background: #b5ad0d;
+  background-image: -webkit-linear-gradient(top, #b5ad0d, #f5e05a);
+  background-image: -moz-linear-gradient(top, #b5ad0d, #f5e05a);
+  background-image: -ms-linear-gradient(top, #b5ad0d, #f5e05a);
+  background-image: -o-linear-gradient(top, #b5ad0d, #f5e05a);
+  background-image: linear-gradient(to bottom, #b5ad0d, #f5e05a);
+  text-decoration: none;
+}

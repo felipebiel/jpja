@@ -1,0 +1,54 @@
+
+body{
+	background-image: url('..//arquivos/imagens/fundo2.jpg');
+}
+
+.ocultar{
+	display: none;
+}
+
+/*customiza a imagem de perfil do administrador*/
+
+.img_perfil_adm{
+	width: 30px;
+	border-radius: 5px;
+}
+
+/*preview da imagem do tema*/
+#imageTema {
+    width: 120px;
+    height: 120px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: right;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#imageModulo {
+    width: 120px;
+    height: 120px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: right;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+/*tamanho do tooltip*/
+.tooltip-inner {
+    max-width: 150px;
+    /* If max-width does not work, try using width instead */
+    width: 150px; 
+}
+
+
+/*modal de carregamento*/
+
+.carregando{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25pt;
+}
+

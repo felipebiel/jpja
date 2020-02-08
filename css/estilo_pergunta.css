@@ -1,0 +1,232 @@
+
+.btcomecarvoltar {
+  background: #47f02d;
+  background-image: -webkit-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -moz-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -ms-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -o-linear-gradient(top, #47f02d, #2bb847);
+  background-image: linear-gradient(to bottom, #47f02d, #2bb847);
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 42px;
+  -webkit-box-shadow: 0px 1px 3px #3a7a21;
+  -moz-box-shadow: 0px 1px 3px #3a7a21;
+  box-shadow: 0px 1px 3px #3a7a21;
+  font-family: Arial;
+  color: #fcfffd;
+  font-size: 14px;
+  padding: 7px 15px 7px 10px;
+  text-decoration: none;
+}
+
+.btcomecarvoltar:hover {
+  background: #00fc08;
+  background-image: -webkit-linear-gradient(top, #00fc08, #1df23d);
+  background-image: -moz-linear-gradient(top, #00fc08, #1df23d);
+  background-image: -ms-linear-gradient(top, #00fc08, #1df23d);
+  background-image: -o-linear-gradient(top, #00fc08, #1df23d);
+  background-image: linear-gradient(to bottom, #00fc08, #1df23d);
+  text-decoration: none;
+  color:white;
+
+}
+
+.btvoltarr {
+  background: #efffed;
+  background-image: -webkit-linear-gradient(top, #efffed, #fafafa);
+  background-image: -moz-linear-gradient(top, #efffed, #fafafa);
+  background-image: -ms-linear-gradient(top, #efffed, #fafafa);
+  background-image: -o-linear-gradient(top, #efffed, #fafafa);
+  background-image: linear-gradient(to bottom, #efffed, #fafafa);
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 42px;
+  -webkit-box-shadow: 0px 1px 3px #8f8f8f;
+  -moz-box-shadow: 0px 1px 3px #8f8f8f;
+  box-shadow: 0px 1px 3px #8f8f8f;
+  font-family: Arial;
+  color: #56c441;
+  font-size: 14px;
+  padding: 7px 19px 7px 12px;
+  border: solid #f0f0f0 1px;
+  text-decoration: none;
+}
+
+.btvoltarr:hover {
+  background: #47f02d;
+ background: #47f02d;
+  background-image: -webkit-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -moz-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -ms-linear-gradient(top, #47f02d, #2bb847);
+  background-image: -o-linear-gradient(top, #47f02d, #2bb847);
+  background-image: linear-gradient(to bottom, #47f02d, #2bb847);
+  text-decoration: none;
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 42px;
+  -webkit-box-shadow: 0px 1px 3px #8f8f8f;
+  -moz-box-shadow: 0px 1px 3px #8f8f8f;
+  box-shadow: 0px 1px 3px #8f8f8f;
+  color: white;
+}
+
+main.img_final{
+        width: 90px;
+        height: 90px;
+        vertical-align: top;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.ocultar{
+	display: none;
+}
+
+.fa-btn {
+	margin-right: 6px;
+}
+
+body#pergutas{
+	background: #ececec;
+	font-family: 'Lato';
+}
+
+#corpo_perguntas{
+	background-image: url('/arquivos/imagens/fundo_index.jpg');;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 5%;
+}
+
+#corpo_perguntas header{
+	background-color: rgba(0,0,0,0.5);
+}
+
+#corpo_perguntas .pergunta{
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+#corpo_perguntas input[name="op[]"]{
+	visibility:hidden;
+	display: none;
+}
+#corpo_perguntas label {
+    cursor: pointer;
+}
+#corpo_perguntas label{
+
+  display: inline-block;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Arial;
+  color: #848484;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  border-radius: 4px;
+}
+
+
+#corpo_perguntas input:checked + label {
+    background: #bb3c96;
+
+}
+
+#corpo_perguntas footer{
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px;
+	margin-top: 20px;
+    color: white;
+}
+
+#corpo_perguntas h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#corpo_perguntas h1{
+    color: white;
+}
+
+/*barra de progresso*/
+.progress {background: rgba(15, 66, 9, 0.43); border: 0px solid rgba(245, 245, 245, 1); border-radius: 25px; height: 20px;}
+.progress-bar-custom {background: rgba(0, 219, 11, 1);} 
+.progress-striped .progress-bar-custom {background-color: rgba(0, 219, 11, 1); background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(137, 199, 104, 0.39),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(137, 199, 104, 0.39)),color-stop(0.75,rgba(137, 199, 104, 0.39)),color-stop(0.75,transparent),to(transparent))); background-image: -webkit-linear-gradient(45deg,rgba(137, 199, 104, 0.39) 25%,transparent 25%,transparent 50%,rgba(137, 199, 104, 0.39) 50%,rgba(137, 199, 104, 0.39) 75%,transparent 75%,transparent); background-image: linear-gradient(45deg,rgba(137, 199, 104, 0.39) 25%,transparent 25%,transparent 50%,rgba(137, 199, 104, 0.39) 50%,rgba(137, 199, 104, 0.39) 75%,transparent 75%,transparent); background-size: 19px 19px;}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.progress {background: rgba(15, 66, 9, 0.43); border: 0px solid rgba(245, 245, 245, 1); border-radius: 25px; height: 20px;}
+.progress-bar-custom {background: rgba(0, 219, 11, 1);} 
+.progress-striped .progress-bar-custom {background-color: rgba(0, 219, 11, 1); background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(137, 199, 104, 0.39),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(137, 199, 104, 0.39)),color-stop(0.75,rgba(137, 199, 104, 0.39)),color-stop(0.75,transparent),to(transparent))); background-image: -webkit-linear-gradient(45deg,rgba(137, 199, 104, 0.39) 25%,transparent 25%,transparent 50%,rgba(137, 199, 104, 0.39) 50%,rgba(137, 199, 104, 0.39) 75%,transparent 75%,transparent); background-image: linear-gradient(45deg,rgba(137, 199, 104, 0.39) 25%,transparent 25%,transparent 50%,rgba(137, 199, 104, 0.39) 50%,rgba(137, 199, 104, 0.39) 75%,transparent 75%,transparent); background-size: 19px 19px;}
+
+
+/*cor das alternativas*/
+
+.well{/*MEXE AQUI BATTATAA*/
+ background-color: #e8e3e8;
+ padding: 0px;
+ border-radius: 6px;
+ opacity: 0.65;
+ border: 2px solid #b3b5b2;
+
+}
+
+/*AJUSTES MOBILE*/
+@media (max-width: 767px) 
+{
+    h2{
+        font-size: 20px;
+    }
+    #corpo_perguntas{
+        margin-top: 0px;
+    }
+    #corpo_perguntas .pergunta{
+        margin-top: 15px;
+        margin-bottom:15px;
+    }
+    .progress{
+        margin-bottom: 0px;
+    }
+
+    .mensagem{
+        margin-bottom: 15px !important;
+    }
+    footer .col-md-8{
+        text-align: center;
+    }
+
+    #corpo_perguntas label{
+        font-size: 18px;
+    }
+    h1{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+#corpo_perguntas label{
+        font-size: 18px;
+    }
+}
+
+/*quando acertar*/
+.verde{
+  background-color: #b0d237 !important;
+}
+/*quando errar*/
+.vermelho{
+  background-color:  #ed2024 !important;
+}
